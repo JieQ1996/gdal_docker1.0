@@ -1,0 +1,23 @@
+#oss2 密钥
+key_id: 'LTAI4FyuAMJgaa8vf3JJPppg'
+key_secret: 'hdS7Tv7dEgXJbYGhcuiTE97DRbODTx'
+end_point: 'oss-cn-hangzhou.aliyuncs.com'
+#待处理图片下载存放目录
+localfile:  '/app/image/'
+#旋转处理后的图片存放目录
+processedimage: '/app/processedimage'
+slice: '/app/slice'
+#本地待上传切片文件夹位置
+localmereyfile:  '/app/merge'
+#oss2 上传切片地图位置
+objectfile: 'FlightImageTiles/'
+#服务器登陆接口
+loginUrl: 'http://47.98.151.104:8088/uav-inspection-server/web/auth/login'
+username: 'admin'
+password: 'q.123456'
+#获取待处理图像接口和确认处理接口
+dowloadUrl: 'http://47.98.151.104:8088/uav-inspection-server/web/gis/get-cache-images'
+completedUrl: 'http://47.98.151.104:8088/uav-inspection-server/web/gis/cache-completed'
+
+
+
